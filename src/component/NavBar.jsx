@@ -1,6 +1,6 @@
 import "./NavBar.css"
 import {RxHamburgerMenu} from 'react-icons/rx'
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import {CgClose} from "react-icons/cg"
 import {GrProjects} from "react-icons/gr"
 import {AiFillGithub} from 'react-icons/ai'
@@ -18,6 +18,7 @@ export default function NavBar(){
     
   }
 
+
   return (
     <div className="container">
 
@@ -29,8 +30,7 @@ export default function NavBar(){
             {!expendMenu && <RxHamburgerMenu style={{fontSize: '2rem'}}/>}
             {expendMenu && <CgClose className="close-btn" style={{fontSize: '2rem'}}/>}
         </div>
-      </div>
-      <div className="modal" style={{left: expendMenu && "0px"}}>
+        <div className="modal" style={{left: expendMenu && "0px"}}>
         <div className="nav-expand">
           {expendMenu && (
             <ul>
@@ -42,6 +42,9 @@ export default function NavBar(){
           )}
         </div>
       </div>
+
+      </div>
+
 
     </div>
     

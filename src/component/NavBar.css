@@ -2,13 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 .container {
-  position: relative;
+  height: 50px;
 }
 
 .NavBar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 2rem;
 }
 
@@ -55,4 +54,23 @@
   /* top: -250px; */
   transition: left 0.6s ease-in-out;
   z-index: 1;
+}
+
+@media screen and (min-width: 400px) {
+  .modal {
+    display: block;
+    position: relative;
+    max-width: auto;
+    max-height: 30px;
+    left: 0;
+    background-color: white;
+  }
+  .nav-expand ul{
+    display: flex;
+  }
+  
+  .nav-expand li {
+    padding-left: 2rem;
+  }
+
 }
