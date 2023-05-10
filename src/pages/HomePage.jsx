@@ -1,9 +1,11 @@
+import { useState } from 'react'
+import './HomePage.css'
 
-export default function HomePage(){
+export default function HomePage() {
 
   return (
-    <>
-      <h1>Home page</h1>
-    </>
-  )
+    <div>
+
+    </div>
+  );
 }
