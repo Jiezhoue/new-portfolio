@@ -61,9 +61,9 @@
   position: absolute;
   top: 0;
   right: 0;
-  left: -3000px;
+  left: -500px;
   /* top: -250px; */
-  transition: left 0.6s ease-in-out;
+  transition: left 0.8s ease-in-out;
   z-index: 1;
 }
 
