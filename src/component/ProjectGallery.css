@@ -1,0 +1,9 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gallery-item {
+  background-color: lightgrey;
+  text-align: center;
+}

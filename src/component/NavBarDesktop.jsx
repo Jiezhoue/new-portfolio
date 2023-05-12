@@ -1,7 +1,5 @@
 import "./NavBar.css"
-import {RxHamburgerMenu} from 'react-icons/rx'
-import { useEffect, useState } from "react"
-import {CgClose} from "react-icons/cg"
+
 import {GrProjects} from "react-icons/gr"
 import {AiFillGithub} from 'react-icons/ai'
 import {CiLinkedin} from 'react-icons/ci'
