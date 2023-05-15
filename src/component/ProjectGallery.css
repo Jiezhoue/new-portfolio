@@ -1,9 +1,29 @@
 .gallery-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  padding: 1rem 2rem;
+  row-gap: 1rem;
 }
 
-.gallery-item {
+/* .gallery-item {
   background-color: lightgrey;
   text-align: center;
+} */
+
+@media only screen and (min-width: 500px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+  }
+
 }

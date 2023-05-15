@@ -3,9 +3,9 @@ import {RxHamburgerMenu} from 'react-icons/rx'
 import { useEffect, useState } from "react"
 import {CgClose} from "react-icons/cg"
 import {GrProjects} from "react-icons/gr"
-import {AiFillGithub} from 'react-icons/ai'
-import {CiLinkedin} from 'react-icons/ci'
-import {RiContactsLine} from 'react-icons/ri'
+import {BsGithub} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsPeopleFill} from 'react-icons/bs'
 import { NavLink } from "react-router-dom"
 
 
@@ -34,9 +34,9 @@ export default function NavBar(){
         <div className="modal" style={{left: expendMenu && "0px"}}>
           <ul>
             <li><NavLink className="nav-link"><GrProjects /> Projects</NavLink></li>
-            <li><NavLink className="nav-link"><AiFillGithub /> Github</NavLink></li>
-            <li><NavLink className="nav-link"><CiLinkedin /> LinkedIn</NavLink></li>
-            <li><NavLink className="nav-link"><RiContactsLine /> Contact</NavLink></li>
+            <li><a href="https://github.com/Jiezhoue" target="_blank" className="nav-link"><BsGithub/> Github</a></li>
+            <li><a href="https://github.com/Jiezhoue" target="_blank" className="nav-link"><BsLinkedin /> LinkedIn</a></li>
+            <li><NavLink className="nav-link"><BsPeopleFill /> Contact</NavLink></li>
           </ul>
         </div>
         {windowWidth < 500 ?

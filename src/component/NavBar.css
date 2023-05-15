@@ -1,13 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-.container {
-  height: 50px;
-}
 
 .NavBar {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   padding: 1rem 2rem;
   height: 50px;
@@ -20,16 +17,16 @@
 }
 
 .hamburger-menu {
-  font-size: 1rem;
   font-weight: bold;
+  margin-right: 0;
 }
 
 
-.modal ul{
+.modal > ul{
   list-style-type: none;
 }
 
-.modal ul li {
+.modal > ul > li {
   padding-bottom: 0.8rem;
   text-align: center;
 }
@@ -37,12 +34,12 @@
 .nav-link {
   font-size: 1.3rem;
   text-decoration: none;
-  border-top: 2px solid transparent;
-  transition: border-top 1s ease-in-out;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s ease-in-out;
 }
 
 .nav-link:hover {
-  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -53,15 +50,15 @@
 
 .modal {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   max-width: 100vw;
   height: 100vh;
   background-color: whitesmoke;
   position: absolute;
   top: 0;
   right: 0;
-  left: -500px;
+  left: -1024px;
   /* top: -250px; */
   transition: left 0.8s ease-in-out;
   z-index: 1;
@@ -69,15 +66,17 @@
 
 @media only screen and (min-width: 500px) {
   .modal {
-    all: none;
-    left: 0;
+    position: relative;
+    max-width: 1024px;
     height: 50px;
-    justify-content: end;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
     padding-right: 2rem;
     background-color: white;
     
   }
-  .modal ul {
+  .modal > ul {
     display: flex;
   }
 
@@ -85,8 +84,9 @@
     display: none;
   }
 
-  .modal ul li {
+  .modal > ul > li {
     padding-left: 1.5rem;
+    padding-bottom: 0;
   }
 
 

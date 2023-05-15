@@ -1,0 +1,19 @@
+.footer-container {
+  list-style-type: none;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-color: whitesmoke;
+  padding: 0rem 3rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-container > li > .footer-list {
+  all: unset;
+  text-decoration: none;
+}

@@ -12,6 +12,8 @@ export default function HeroSection () {
 
     <div className="hero-section">
       <img src={heroImage} alt="minimalist male painting"/>
+      
+
       <div className="hero-section-text" ref={ref} style={{
         transform: isInView ? 'none' : "translateX(-30rem)",
         opacity: isInView ? 1 : 0,

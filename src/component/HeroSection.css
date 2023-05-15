@@ -32,3 +32,24 @@
   font-weight: 100;
   line-height: 1.3rem;
 }
+
+@media only screen and (min-width: 500px) {
+  .hero-section {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .hero-section img {
+    height: 300px;
+    position:absolute;
+    left: -5rem;
+  }
+
+  .hero-section .hero-section-text h1 {
+    font-weight: 500;
+    font-size: 15rem;
+  }
+  
+}

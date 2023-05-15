@@ -1,8 +1,4 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 
 .project-card-container {
   display: flex;
@@ -10,13 +6,12 @@
   align-items: center;
   position: relative;
   background-color: aqua;
-  width: 80vw;
+  max-width: 80vw;
   max-height: 300px;
   border: 2px solid black;
   border-radius: 6px;
   margin: auto;
   overflow: hidden;
-  margin-bottom: 1rem;
 
 }
 
