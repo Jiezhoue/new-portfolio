@@ -34,17 +34,19 @@
 }
 
 @media only screen and (min-width: 500px) {
+
+
   .hero-section {
-    height: 300px;
+    height: 400px;
     overflow: hidden;
     position: relative;
     margin-bottom: 1rem;
   }
 
   .hero-section img {
-    height: 300px;
+    height: 400px;
     position:absolute;
-    left: -5rem;
+    left: -12rem;
   }
 
   .hero-section .hero-section-text h1 {
@@ -52,4 +54,29 @@
     font-size: 15rem;
   }
   
+  .hero-section .hero-section-text h4 {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+  }
+
+  .hero-section-text {
+    width: 41rem;
+  }
+
+  .hero-section .hero-section-text p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .hero-section .hero-section-text h1 {
+    font-weight: 500;
+    font-size: 20rem;
+  }
+
+  .hero-section-text {
+    width: 70rem;
+  }
+
 }
