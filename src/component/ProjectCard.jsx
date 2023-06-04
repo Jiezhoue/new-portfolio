@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import '../component/ProjectCard.css'
 
-export default function ProjectCard({name}) {
+export default function ProjectCard(props) {
+
+  const {name} = props;
 
   const [checkCard, setCheckCard] = useState(false)
 
@@ -19,7 +21,7 @@ export default function ProjectCard({name}) {
       onMouseLeave={handleMouseLeave}
       >
         {<div className="cards-image">
-          <img src={name} />
+          <img src={name.img} />
         </div>}
         {<div className="cards-content" style={ {visibility: checkCard && 'visible', opacity: checkCard && 1}}>
           <p>loru lorum lorum loru lorum lorumloru lorum loruml

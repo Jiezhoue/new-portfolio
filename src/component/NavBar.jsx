@@ -34,9 +34,9 @@ export default function NavBar(){
         </NavLink>
         <div className="modal" style={{left: expendMenu && "0px"}}>
           <ul>
-            <li><NavLink className="nav-link"><GrProjects /> Projects</NavLink></li>
-            <li><a href="https://github.com/Jiezhoue" target="_blank" className="nav-link"><BsGithub/> Github</a></li>
-            <li><a href="https://github.com/Jiezhoue" target="_blank" className="nav-link"><BsLinkedin /> LinkedIn</a></li>
+            <li><NavLink to='/project' className="nav-link"><GrProjects /> Projects</NavLink></li>
+            <li><a href="https://github.com/Jiezhoue" target="_blank" rel="noreferrer" className="nav-link"><BsGithub/> Github</a></li>
+            <li><a href="https://github.com/Jiezhoue" target="_blank" rel="noreferrer" className="nav-link"><BsLinkedin /> LinkedIn</a></li>
             <li><NavLink className="nav-link"><BsPeopleFill /> Contact</NavLink></li>
           </ul>
         </div>

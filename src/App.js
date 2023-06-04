@@ -1,17 +1,22 @@
-// import './App.css';
-import NavBar from './component/NavBar';
-import HomePage from './pages/HomePage';
+
 // import "./styles/root.css"
-import { useEffect, useState } from 'react';
-import HeroSection from './component/HeroSection';
-import ProjectGallery from './component/ProjectGallery';
+
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./component/NavBar";
+import HomePage from "./pages/HomePage";
+import ProjectPage from "./pages/ProjectPage";
+
 
 function App() {
 
 
   return (
     <div className="App">
-
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/project' element={<ProjectPage />} />
+      </Routes>
     </div>
   );
 }
