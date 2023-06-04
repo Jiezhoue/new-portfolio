@@ -1,12 +1,7 @@
-import Footer from "../component/Footer";
-import NavBar from "../component/NavBar";
+
 import ProjectGallery from "../component/ProjectGallery";
 import './ProjectPage.css';
-import pic1 from '../pics/pic1.png';
-import pic2 from '../pics/pic2.png';
-import pic3 from '../pics/pic3.png';
-import pic4 from '../pics/pic4.png';
-import pic5 from '../pics/pic5.png';
+
 
 import AboutMe from "../component/AboutMe";
 
@@ -29,7 +24,6 @@ export default function ProjectPage () {
       </p>
       </AboutMe>
       <ProjectGallery />
-      <Footer />
 
   </div>
   )
