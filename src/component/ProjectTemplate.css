@@ -1,0 +1,76 @@
+.project-template-container {
+  margin: 0 auto;
+    max-width: 1024px;
+
+}
+
+.project-template {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.project-label {
+  font-size: 5rem;
+}
+
+.project-title {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.project-info {
+  background-color: var(--primary-color);
+  padding: 2rem;
+}
+
+.project-info a,
+.project-info p
+{
+  font-size: 1rem;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.project-info a {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.project-code {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.project-code li{
+  list-style: none;
+  border: 1px solid var(--primary-color);
+  padding: 3px 5px;
+  margin-right: 5px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.multiline-paragraph {
+  white-space: pre-line;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .project-content {
+    flex-direction: row;
+  }
+
+  .project-content img {
+    max-width: 50%;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+
+}

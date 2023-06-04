@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
 
 .NavBar {
   display: flex;
@@ -8,9 +13,12 @@
   align-items: center;
   padding: 1rem 2rem;
   height: 50px;
-  max-width: 1024px;
+  width: 100%;
   margin: 0 auto;
-
+  background-color: whitesmoke;
+  top: 0;
+  position: fixed;
+  z-index: 9999;
   
 }
 
@@ -66,7 +74,7 @@
   left: -1024px;
   /* top: -250px; */
   transition: left 0.8s ease-in-out;
-  z-index: 1;
+  z-index: 8;
 }
 
 @media only screen and (min-width: 500px) {
@@ -78,7 +86,7 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 2rem;
-    background-color: white;
+    background-color: whitesmoke;
     
   }
   .modal > ul {

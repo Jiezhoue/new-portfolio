@@ -10,10 +10,10 @@ export default function Footer(){
   return (
     <div className="footer">
     <ul className="footer-container">
-      <li ><NavLink className="footer-list" to='/'><GrProjects /></NavLink></li>
+      <li ><a className="footer-list" href='/project'><GrProjects /></a></li>
       <li ><a href="https://github.com/Jiezhoue" target="_blank" rel="noreferrer" className="footer-list"><BsGithub /></a></li>
       <li ><a href="https://www.linkedin.com/in/jie-zhou-0a72068a/" rel="noreferrer" target="_blank" className="footer-list" to='/'><BsLinkedin /></a></li>
-      <li ><NavLink className="footer-list" to='/'><BsPeopleFill /></NavLink></li>
+      <li ><a href="/#contact" className="footer-list" to='/'><BsPeopleFill /></a></li>
     </ul>
     </div>
 

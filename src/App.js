@@ -4,6 +4,7 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./component/Footer";
 import NavBar from "./component/NavBar";
+import ProjectTemplate from "./component/PojectTemplate";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/project' element={<ProjectPage />} />
+        <Route path="/project/:id" element={<ProjectTemplate />} />
       </Routes>
       <Footer />
     </div>

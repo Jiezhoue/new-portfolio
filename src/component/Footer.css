@@ -1,6 +1,7 @@
 .footer {
   max-width: 1024px;
   margin: 0 auto;
+  margin-top: 4rem;
 }
 
 .footer-container {
@@ -20,4 +21,9 @@
 .footer-container > li > .footer-list {
   all: unset;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 500px) {
+  
+
 }

@@ -29,15 +29,15 @@ export default function NavBar(){
   return (
     <div className="container">
       <div className="NavBar">
-        <NavLink to='/' className="logo">
+        <a href='/' className="logo">
           eddy z
-        </NavLink>
+        </a>
         <div className="modal" style={{left: expendMenu && "0px"}}>
           <ul>
-            <li><NavLink to='/project' className="nav-link"><GrProjects /> Projects</NavLink></li>
-            <li><a href="https://github.com/Jiezhoue" target="_blank" rel="noreferrer" className="nav-link"><BsGithub/> Github</a></li>
-            <li><a href="https://www.linkedin.com/in/jie-zhou-0a72068a/" target="_blank" rel="noreferrer" className="nav-link"><BsLinkedin /> LinkedIn</a></li>
-            <li><NavLink className="nav-link"><BsPeopleFill /> Contact</NavLink></li>
+            <li><a href="/project" className="nav-link" onClick={handleClick}><GrProjects /> Projects</a></li>
+            <li><a href="https://github.com/Jiezhoue" target="_blank" rel="noreferrer" className="nav-link" onClick={handleClick}><BsGithub/> Github</a></li>
+            <li><a href="https://www.linkedin.com/in/jie-zhou-0a72068a/" target="_blank" rel="noreferrer" className="nav-link" onClick={handleClick}><BsLinkedin /> LinkedIn</a></li>
+            <li><a href="/#contact"  className="nav-link" onClick={handleClick}><BsPeopleFill /> Contact</a></li>
           </ul>
         </div>
         {windowWidth < 500 ?
