@@ -22,13 +22,16 @@ export default function ProjectTemplate(props) {
         <h1 className="project-label">Project</h1>
         <h2 className="project-title">{project.title}</h2>
         <div className="project-content">
-          <img src={project.img} alt="" />
+          <div className="project-img">
+            <img src={project.img} alt="" />
+          </div>
           <div className="project-textPart">  
             <ul className="project-code">
               {project?.code?.map((code) => <li key={code}>{code}</li> )}
             </ul>
             <p className="project-info">
-              <a href="">{project.githubURL}</a>
+              <a href={project.githubURL} target="_blank" rel="noreferrer">Github: {project.githubURL}</a>
+              <a href={project.deploy} target="_blank" rel="noreferrer">Deploy: {project.deploy}</a>
               <p className="multiline-paragraph">{project.content}</p>
             </p>
           </div>

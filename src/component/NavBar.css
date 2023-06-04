@@ -5,6 +5,7 @@
   max-width: 1024px;
   margin: 0 auto;
   margin-bottom: 5rem;
+  
 }
 
 .NavBar {
@@ -15,11 +16,10 @@
   height: 50px;
   width: 100%;
   margin: 0 auto;
-  background-color: whitesmoke;
   top: 0;
   position: fixed;
   z-index: 9999;
-  
+
 }
 
 .logo {
@@ -27,11 +27,17 @@
   font-family: "Caveat";
   font-size: 2rem;
   text-decoration: none;
+  position: absolute;
+  z-index: 6000;
+  left: 0;
+  margin-left: 2rem;
 }
 
 .hamburger-menu {
   font-weight: bold;
   margin-right: 0;
+  position: absolute;
+  right: 2rem;
 }
 
 
@@ -67,28 +73,29 @@
   justify-content: center;
   max-width: 100vw;
   height: 100vh;
-  background-color: whitesmoke;
   position: absolute;
   top: 0;
   right: 0;
   left: -1024px;
   /* top: -250px; */
   transition: left 0.8s ease-in-out;
-  z-index: 8;
+  z-index: 7000;
+  background: whitesmoke;
 }
 
 @media only screen and (min-width: 500px) {
   .modal {
     position: relative;
-    max-width: 1024px;
+    width: 1024px;
     height: 50px;
-    left: 0;
+    left: 0px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-right: 2rem;
     background-color: whitesmoke;
     
   }
+
   .modal > ul {
     display: flex;
   }
@@ -104,7 +111,24 @@
 
 
   .logo{
-    z-index: 5;
+    margin-left: 4rem;
+    z-index: 9999;
   }
 
+}
+
+@media only screen and (min-width: 1024px) {
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1024px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 2rem;
+    /* top: -250px; */
+    z-index: 2;
+    
+  }
 }

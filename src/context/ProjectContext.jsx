@@ -50,10 +50,11 @@ const initialProjectData = [
   {
     id: 6, 
     title: "First static HTML and CSS only portfolio website", 
-    content: "As they crafted each section and designed the layout, the student discovered the power of HTML in structuring the content, creating headings, paragraphs, and lists. They learned how to incorporate images and enhance the visual appeal of their website through CSS. Through trial and error, they experimented with different color schemes, fonts, and layouts, gradually developing an eye for aesthetics and user experience. While parts of the portfolio website may not have achieved the level of perfection the student initially envisioned, they realized that this was a valuable part of the learning process. It taught them the importance of iteration, continuous improvement, and attention to detail. They learned to appreciate the beauty of incremental progress and the satisfaction that comes from tackling challenges head-on.Beyond technical skills, this journey of creating a portfolio website fostered the student's creativity and self-expression. They discovered the joy of translating their ideas into a tangible digital presence, showcasing their projects and achievements. They gained confidence in presenting their work and sharing it with others, nurturing their passion for programming.", 
-    img: pic6, 
-    code: ["CSS", "JAVASCRIPT"],
-    githubURL: "aaaaaaa"
+    content: "As crafted each section and designed the layout, I discovered the power of HTML in structuring the content, creating headings, paragraphs, and lists. I learned how to incorporate images and enhance the visual appeal of the website through CSS. Through trial and error, experimented with different color schemes, fonts, and layouts, gradually developing an eye for aesthetics and user experience.\n\nWhile parts of the portfolio website may not have achieved the level of perfection I initially envisioned, but realized that this was a valuable part of the learning process. It taught me the importance of iteration, continuous improvement, and attention to detail.\n\nBeyond technical skills, this journey of creating a portfolio website fostered my creativity and self-expression. I discovered the joy of translating my ideas into a tangible digital presence, showcasing my projects and achievements. Kind of gained confidence in presenting my work and sharing it with others, getting some passion for programming.", 
+    img: pic1, 
+    code: ["CSS", "HTML"],
+    githubURL: "https://github.com/Jiezhoue/JieZhou_T1A2",
+    deploy: "https://lucent-figolla-a402f3.netlify.app/"
   },
 ]
 

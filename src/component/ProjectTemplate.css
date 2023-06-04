@@ -57,6 +57,11 @@
   gap: 10px;
 }
 
+.project-img img{
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .multiline-paragraph {
   white-space: pre-line;
 }
@@ -67,8 +72,8 @@
     flex-direction: row;
   }
 
-  .project-content img {
-    max-width: 50%;
+  .project-img img {
+    max-width: 100%;
     object-fit: contain;
     align-self: flex-start;
   }
