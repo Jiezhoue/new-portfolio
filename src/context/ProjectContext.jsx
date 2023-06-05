@@ -52,7 +52,9 @@ const initialProjectData = [
     shortDescription: "This Todo List app to empower users to effortlessly manage their tasks and notes.",
     img: pic5, 
     code: ["React", "JAVASCRIPT", "HTML"],
-    githubURL: "https://github.com/Jiezhoue/to-do-list-app"
+    githubURL: "https://github.com/Jiezhoue/to-do-list-app",
+    deploy: "https://comfy-tarsier-1481e5.netlify.app/"
+    
   },
   {
     id: 6, 
