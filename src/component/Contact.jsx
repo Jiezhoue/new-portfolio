@@ -8,9 +8,10 @@ export default function Contact (props) {
       <div className="contact-details">
         <ul className="contact-list">
           <li className="contact-info">Eddy Zhou</li>
-          <li className="contact-info">0433 512 626</li>
-          <li className="contact-info">eddy.zhouj@gmail.com</li>
-          <li className="contact-info">https://www.linkedin.com/in/jie-zhou-0a72068a/</li>
+
+          <a className="contact-info" href="tel:0433 512 626" >0433 512 626</a>
+          <a className="contact-info" href="mailto:eddy.zhouj@gmail.com">eddy.zhouj@gmail.com</a>
+          <a className="contact-info" href="https://www.linkedin.com/in/jie-zhou-0a72068a/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/jie-zhou-0a72068a/</a>
         </ul>
       </div>
     </div>
