@@ -61,6 +61,11 @@
   max-width: 100%;
   object-fit: contain;
 }
+.project-img {
+  background-color: whitesmoke;
+}
+
+
 
 .multiline-paragraph {
   white-space: pre-line;

@@ -11,17 +11,15 @@ export default function ProjectPage () {
   return (
     <div className='projectPage'>
       <AboutMe>
-      <p>
-        My name is Eddy, and I am a full stack developer. 
-      </p>
-      <p>
-        I recently graduated from Coder Academy Sydney, where I acquired a strong foundation in programming and development.
-        I am proficient in a range of technologies including Python, React, JavaScript, HTML, and CSS. 
-      </p>
-      <p>
-        With my expertise in these languages, I am capable of developing robust and dynamic web applications. 
-        I am passionate about creating innovative solutions and staying up-to-date with the latest trends in the industry.
-      </p>
+        <p>
+        Hello, I am Eddy, a seasoned full-stack developer. I recently completed my studies at Coder Academy Sydney, where I cultivated a solid understanding of programming and development principles. 
+        </p>
+        <p>
+        Proficient in an array of technologies, including Python, React, JavaScript, HTML, and CSS, I possess the skill set necessary to construct resilient and dynamic web applications. 
+        </p>
+        <p>
+        My unwavering passion lies in crafting inventive solutions while keeping pace with the ever-evolving trends within the industry. With a commitment to excellence, I continuously strive to push the boundaries of innovation."
+        </p>
       </AboutMe>
       <ProjectGallery />
 

@@ -26,9 +26,7 @@ export default function ProjectCard(props) {
           <img src={name.img} alt="" />
         </div>}
         {<div className="cards-content" style={ {visibility: checkCard && 'visible', opacity: checkCard && 1}}>
-          <p>loru lorum lorum loru lorum lorumloru lorum loruml
-          loru lorum lorum loru lorum lorumloru lorum loruml
-          loru lorum lorum loru lorum lorumloru lorum lorumloru lorum lorumloru lorum lorum</p>
+          <p>{name.shortDescription}</p>
           <button className="cards-button" onClick={()=>setRedirectState(true)}>explore</button>
         </div>}
         {redirectState && <Navigate to= {"/project/" + name.id} />}

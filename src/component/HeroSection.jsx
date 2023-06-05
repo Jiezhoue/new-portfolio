@@ -21,8 +21,8 @@ export default function HeroSection () {
       }}>
         <h1>hello</h1>
         <h4>i'm eddy, full stack dev</h4>
-        <h4>I'm a recent Coder Academy Sydney graduate and developer at Future Friendly.</h4> 
-        <p>Currently coding with: python | react | javascript | html | css</p>
+        <h4>I'm a recent Coder Academy Sydney graduate and developer.</h4> 
+        <p>Currently coding with: python | react | javascript | html | css | flask | nodeJS</p>
       </div>
 
     </div>

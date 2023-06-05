@@ -31,7 +31,7 @@ export default function ProjectTemplate(props) {
             </ul>
             <p className="project-info">
               <a href={project.githubURL} target="_blank" rel="noreferrer">Github: {project.githubURL}</a>
-              <a href={project.deploy} target="_blank" rel="noreferrer">Deploy: {project.deploy}</a>
+              {project.deploy && <a href={project.deploy} target="_blank" rel="noreferrer">Deploy: {project.deploy}</a>}
               <p className="multiline-paragraph">{project.content}</p>
             </p>
           </div>
